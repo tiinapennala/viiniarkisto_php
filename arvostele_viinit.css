@@ -1,0 +1,146 @@
+
+@-ms-viewport{
+  width: device-width;
+}
+
+body {
+	background-color: white;
+	font-family: verdana, sans-serif;
+	margin: 0; 
+    padding: 0; 
+	height: 100%;
+	width: 100%;
+}
+
+body.index {
+	background-image: url("kuva4.JPG");
+	margin: 0; 
+    padding: 0; 
+	height: 100%;
+	width: 100%;
+	background-color: white;
+	  -webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;   
+		background-repeat: no-repeat;
+}
+
+article, header, footer, nav, section {
+	display: block;
+}
+
+
+nav {
+	font-size: 12px;
+	text-align: left;
+	padding: 0.5px;
+	letter-spacing: 0.2em;
+	background-color: #2a2a2a;
+	color:  #fff;
+
+}
+
+header {
+	color:  #fff;
+	font-size: 15px;
+}
+
+h1 li {
+	font-size: 13px;
+	border-right:1px solid #bbb;
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2a2a2a;
+}
+
+li {
+    float: left;
+	
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+
+
+article {
+	font-size: 0.9em;
+	height: 615px;
+	vertical-align: top;
+	padding-left: 10px;
+	overflow-y: scroll;
+}
+
+hr {
+	width: 160px;
+	padding: 0;
+	margin: .5rem 0 0;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #b2b2b2;
+}
+
+h2 {
+	font-size: 1.5rem;
+	font-weight: normal;
+	line-height: 3rem;
+}
+
+.kuva1 {
+	clear: left;
+	float: left;
+	padding: 0 50px 0 0 ;
+}
+
+.taustakuva {
+width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+div.index{
+	padding: 100px 70px 50px 50px;
+}
+
+
+
+
+table {
+	border-collapse: collapse;
+}
+
+table, p {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+th, td {
+	padding: 5px 35px 5px 5px;
+}
